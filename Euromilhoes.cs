@@ -53,5 +53,10 @@ public class Euromilhoes
             );
         }
         #endregion
+
+        public void GetRandomTicket()
+        {
+            
+        }
     }
 }

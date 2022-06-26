@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rui/_GIT/ConsoleEuroMilhoes/ConsoleApp.csproj",
+      "projectUniqueName": "/home/rui/_GIT/EuroMillions/ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "/home/rui/_GIT/ConsoleEuroMilhoes/ConsoleApp.csproj",
+      "projectPath": "/home/rui/_GIT/EuroMillions/ConsoleApp.csproj",
       "packagesPath": "/home/rui/.nuget/packages/",
-      "outputPath": "/home/rui/_GIT/ConsoleEuroMilhoes/obj/",
+      "outputPath": "/home/rui/_GIT/EuroMillions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/rui/.nuget/NuGet/NuGet.Config"

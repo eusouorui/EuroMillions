@@ -24,12 +24,12 @@ while(true)
 
     Console.WriteLine("\n\nPress any key to go back to the menu...");
     Console.Read();
+    Console.Clear();
 
 }
 
 int Menu()
 {
-    Console.Clear();
     int counter = 0;
 
     Console.WriteLine("\nSelect an option:");
