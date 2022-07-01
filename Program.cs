@@ -1,7 +1,7 @@
 ﻿using System;
 
 Console.Clear();
-Console.WriteLine("Developed by Rui Dias");
+Console.WriteLine("Developed by:\nRui Dias");
 
 int menuOption = 0;
 bool confirmExit;
