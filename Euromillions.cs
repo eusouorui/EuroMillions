@@ -1,4 +1,4 @@
-public class Euromilhoes
+public class Euromillions
 {
 
     public class Ticket
@@ -39,9 +39,9 @@ public class Euromilhoes
         #region Public Methods
 
         ///<summary>
-        ///Validates whether a ticket is valid or not.
+        ///Validates whether a ticket is valid or not when provided numbers and stars
         ///</summary>
-        public bool Validate(List<int> numbers, List<int> stars)
+        public static bool Validate(List<int> numbers, List<int> stars)
         {
             return !((
                 numbers.Any(n => n > HIGHEST_NUMBER_ALLOWED) ||
@@ -57,6 +57,17 @@ public class Euromilhoes
         public void GetRandomTicket()
         {
             
+        }
+
+        public void PrintTicket()
+        {
+            Console.WriteLine("Your ticket:\n\n");
+            Console.WriteLine("Numbers:");
+
+            Console.WriteLine(string.Join(", ", Numbers));
+
+            Console.WriteLine("\n\nStars:");
+            Console.WriteLine(string.Join(", ", Stars));
         }
     }
 }
