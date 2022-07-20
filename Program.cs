@@ -48,6 +48,7 @@ Console.Clear();
 Console.WriteLine("--------------------------------------------------------");
 Console.WriteLine("Thank you for using Euromillions, Developed by Rui Dias.\nPress any key to leave.");
 Console.ReadKey();
+Console.Clear();
 
 int Menu()
 {
