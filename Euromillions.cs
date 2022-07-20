@@ -32,6 +32,9 @@ public class Euromillions
         {
             this.Numbers = numbers;
             this.Stars = stars;
+
+            this.Numbers.Sort();
+            this.Stars.Sort();
         }
 
         #endregion
@@ -54,9 +57,22 @@ public class Euromillions
         }
         #endregion
 
-        public void GetRandomTicket()
+        public List<int> GenerateRandomList(int totalNumbers, int lowestAllowed, int highestAllowed)
         {
+            Random random = new Random();
+            List<int> list = new List<int>();
+            int sortedNumber = 0;
             
+            while(list.Count < totalNumbers)
+            {
+                sortedNumber = random.Next(lowestAllowed, highestAllowed);
+                if(!list.Contains(sortedNumber))
+                {
+                    list.Add(sortedNumber);
+                }
+            }
+
+            return list;
         }
 
         public void PrintTicket()
